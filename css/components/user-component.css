@@ -1,7 +1,7 @@
 .user-component {
     display: flex;
-    /* padding-top: var(--horizontal-space); */
     justify-content: space-between;
+    margin-bottom: 10px;
 }
 
 .user-component,
