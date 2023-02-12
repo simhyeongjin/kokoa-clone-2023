@@ -1,0 +1,84 @@
+.more-Suggestions__title {
+    padding-top: 20px;
+    padding: 20px auto;
+    border-top: var(--main-border);
+}
+
+.more-screen .icon-row {
+    margin-top: 20px;
+}
+
+.more-Suggestions__icons {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    
+}
+
+.more_Suggestions_icon {
+    align-content: center;
+}
+
+.more_Suggestions__icon-image {
+    width: 60px;
+    height: 60px;
+    background-color: rgb(255, 187, 0);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    margin: 10px auto;
+    
+}
+
+.kokoa-wallet {
+    background-color: var(--yellow);
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.kokoa-wallet__title,
+.kokoa-wallet__idcard,
+.kokoa-wallet__pay,
+.kokoa-wallet__bank {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 0px 20px;
+}
+
+.kokoa-wallet__title i {
+    margin: 0px 10px;
+}
+
+.kokoa-wallet__idcard {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.kokoa-wallet__pay div {
+    display: flex;
+    align-items: center;
+    margin: 0px;
+}
+
+.kokoa-wallet__pay div > i {
+    margin-right: 10px;
+}
+
+.kokoa-wallet__bank-payment span {
+    margin-right: 20px;
+}
+
+.kokoa-wallet__bank-payment span:nth-child(1),
+.kokoa-wallet__bank-payment span:nth-child(2) {
+    border-right: var(--main-border);
+    padding-right: 25px;
+}
+
+.shopping-cart i {
+    margin-right: 10px;
+}
